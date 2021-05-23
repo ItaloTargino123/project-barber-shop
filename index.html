@@ -12,34 +12,34 @@
 </head>
 
 <body>
-    <section class="home">
+    <section id="home" class="home">
         <header class="header">
             <nav class="nav">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                     </li>
 
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
 
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#services">Services</a>
                     </li>
                     <li>
                         <img class="logo" src="./assets/logo.png" alt=" Barber Shop Logo">
                     </li>
                     <li>
-                        <a href="#">Gallery</a>
+                        <a href="#gallery">Gallery</a>
                     </li>
 
                     <li>
-                        <a href="#">Book</a>
+                        <a href="#appointment">Book an appointment</a>
                     </li>
 
                     <li>
-                        <a href="#">Find Us</a>
+                        <a href="#location">Find Us</a>
                     </li>
             </nav>
             </ul>
@@ -55,7 +55,7 @@
 
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="container">
             <div class="timing">
                 <div class="overlay">
@@ -78,10 +78,10 @@
                     </div>
                     <br>
                     <img src="./assets/loc-ic.png" alt="Location">
-                    <span>69 Gavin Way</span>
+                    <span>Rua da Matrix, 33</span>
                     <br>
                     <img src="./assets/phone-ic.png" alt="Phone">
-                    <span>(44) 07841649380</span>
+                    <span>(11) 9999-9999</span>
 
 
                 </div>
@@ -112,7 +112,7 @@
             </div>
         </div>
     </section>
-    <section class="services">
+    <section id="services" class="services">
         <div class="container">
             <h2>Our Services</h2>
             <img src="./assets/heading-ic.png" alt="Services">
@@ -167,8 +167,137 @@
 
 
     </section>
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <h2>Book an appointment</h2>
+            <img src="./assets/heading-ic-white.png" alt="Book an appointment">
 
 
+            <form action="">
+                <div class="personal-data">
+                    <div class="input-wrapper">
+                        <label for="">Nome</label>
+                        <input type="text" placeholder="Type your name">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="">E-mail</label>
+                        <input type="text" placeholder="Type your e-mail">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="">Phone</label>
+                        <input type="text" placeholder="Type your phone number">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="">Service Type</label>
+                        <select>
+                            <option value="">Hair Cut</option>
+                            <option value="">Hair Cut & Beard</option>
+
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="">Mensagem</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <button>Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Photos Gallery</h2>
+            <img src="./assets/heading-ic.png" alt="Gallery of Photos">
+            <div class="gallery-wrapper">
+                <div>
+                    <img src="./assets/gallery-img1.png" alt="Gallery">
+                </div>
+                <div>
+                    <img src="./assets/gallery-img2.png" alt="Gallery">
+                </div>
+                <div>
+                    <img src="./assets/gallery-img3.png" alt="Gallery">
+                </div>
+                <div>
+                    <img src="./assets/gallery-img4.png" alt="Gallery">
+                </div>
+                <div>
+                    <img src="./assets/gallery-img5.png" alt="Gallery">
+                </div>
+                <div>
+                    <img src="./assets/gallery-img6.png" alt="Gallery">
+                </div>
+                <div>
+                    <img src="./assets/gallery-img7.png" alt="Gallery">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="location" class="location">
+        <div class="container">
+            <div class="head">
+                <div class="info">
+                    <div class="icon">
+                        <img src="./assets/map-img1.png" alt="Location">
+                    </div>
+                    <div class="text">
+                        <span>Location</span>
+                        <span>Rua da Matrix, 33</span>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="icon">
+                        <img src="./assets/map-img2.png" alt="Location">
+                    </div>
+                    <div class="text">
+                        <span>Phone</span>
+                        <span>(11) 9999-9999</span>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="icon">
+                        <img src="./assets/map-img3.png" alt="Location">
+                    </div>
+                    <div class="text">
+                        <span>E-mail</span>
+                        <span>contato@barbershop.com</span>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="icon">
+                        <img src="./assets/map-img4.png" alt="Location">
+                    </div>
+                    <div class="text">
+                        <span>Opening Hours</span>
+                        <span>Mon - Friday.: 9AM às 17PM</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1977213306745!2d-46.65868124976722!3d-23.561341267400753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%20Brasil!5e0!3m2!1spt-PT!2spt!4v1608221708500!5m2!1spt-PT!2spt"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        © 2021 Barber Shop - Todos os direitos reservados
+    </footer>
 </body>
 
 </html>
